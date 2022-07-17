@@ -1,0 +1,5 @@
+df = pd.read_csv('file.csv')
+
+df_merge = pd.merge(df1, df2,  how='left', left_on=['ifs','month'], right_on = ['ifs','month'])
+
+df_merge.to_csv('data_merged.csv')
