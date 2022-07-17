@@ -1,0 +1,5 @@
+import pandas as pd
+
+data = pd.io.stata.read_stata('file.dta')
+
+data.to_csv('file.csv')
