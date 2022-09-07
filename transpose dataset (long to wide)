@@ -1,0 +1,1 @@
+df=pd.pivot(df, index=['iso3_o'], columns = 'iso3_d',values = 'dist')
